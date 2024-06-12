@@ -91,7 +91,7 @@
                     {{comment.username}}
                 </div>
                 <div class="cmt-time">
-                    {{comment.createdAt}}
+                  {{comment.region}} | {{comment.createdAt}}
                 </div>
               </div>
                 <div class="cmt-value">
@@ -364,9 +364,9 @@
 
 <style>
 .post {
-  max-width: 900px; /* 最大宽度 */
-  margin: 0 auto; /* 居中显示 */
-  font-family: Arial, sans-serif; /* 字体样式 */
+  max-width: 900px; 
+  margin: 0 auto; 
+  font-family: Arial, sans-serif; 
 }
 
 .blog-header {
@@ -465,19 +465,19 @@
 }
 
 .like i.iconfont.icon-zan {
-  color: #ff6b6b; /* 红色代表点赞 */
+  color: #ff6b6b; 
 }
 
 .like i.iconfont.icon-zan1 {
-  color: #cccccc; /* 灰色代表未点赞 */
+  color: #cccccc;
 }
 
 .favorite i.iconfont.icon-shoucang {
-  color: #ffd700; /* 金色代表收藏 */
+  color: #ffd700; 
 }
 
 .favorite i.iconfont.icon-shoucang1 {
-  color: #cccccc; /* 灰色代表未收藏 */
+  color: #cccccc; 
 }
 
 .Post-delete {
@@ -489,12 +489,12 @@
 
 
 .comment {
-  max-width: 900px; /* 最大宽度 */
-  margin: 0 auto; /* 居中显示 */
-  font-family: Arial, sans-serif; /* 字体样式 */
-  line-height: 1.6; /* 行高 */
-  color: #333; /* 文字颜色 */
-  font-size: 16px; /* 字体大小 */
+  max-width: 900px;
+  margin: 0 auto; 
+  font-family: Arial, sans-serif; 
+  line-height: 1.6; 
+  color: #333;
+  font-size: 16px; 
 
 }
 
@@ -517,19 +517,19 @@
     margin-bottom: 5px;
 }
 
+
 .cmt-value {
     margin-top: 5px;
 }
 
 .cmt-header {
-    position: relative; /* 让容器成为相对定位的父元素 */
+    position: relative; 
 }
 
 .cmt-delete {
-    position: absolute; /* 将图标设置为绝对定位，相对于其父元素进行定位 */
-    top: 0; /* 图标距离容器顶部的距离 */
-    right: 0; /* 图标距离容器右侧的距离 */
-    /* 其他样式 */
+    position: absolute; 
+    top: 0; 
+    right: 0; 
 }
 </style>
   
